@@ -9,7 +9,7 @@
 
 .navbar {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 60px;
 }
 
 .ft-size {
@@ -50,11 +50,18 @@
     border-color: rgb(0, 153, 255);
 }
 
-.flex-container {
+#flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 50px 0px;
+    width: 75%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+#flex-container>div {
+    margin: 30px;
 }
 
 .card {
@@ -71,7 +78,9 @@
     padding: 2px 16px;
 }
 
+
+/* 
 #Cards {
     width: 75%;
     margin: 0 auto;
-}
+} */
